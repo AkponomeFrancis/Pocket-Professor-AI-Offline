@@ -1,0 +1,22 @@
+.main {
+    padding-top: 1rem;
+}
+
+h1 {
+    color: #1E88E5;
+}
+
+.stButton > button {
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.stTextInput > div > div > input {
+    border-radius: 10px;
+}
+
+.stTextArea textarea {
+    border-radius: 10px;
+}
