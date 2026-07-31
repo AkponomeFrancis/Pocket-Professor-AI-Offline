@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 Pocket Professor AI
 
 ## Africa Deep Tech Challenge (ADTC) 2026 Submission
@@ -306,3 +307,7 @@ Africa Deep Tech Challenge (ADTC) 2026
 # License
 
 This project was developed as a submission for the Africa Deep Tech Challenge (ADTC) 2026.
+=======
+# Pocket-Professor-AI
+🎓 Fully Offline AI Educational &amp; Research Assistant powered by Ollama and Llama 3.2 for students, researchers, and educators.
+>>>>>>> 27620722598025d5f6e2ab79cbe39833683b911d
