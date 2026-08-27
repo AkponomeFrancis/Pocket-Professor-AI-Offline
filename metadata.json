@@ -1,21 +1,37 @@
 {
-  "project_name": "Pocket Professor AI",
-  "project_version": "1.0",
+  "team_id": "FE/24/4342476515",
+  "domain": "corporate_enterprise",
+  "language_scope": ["en"],
+  "african_alpha_claim": false,
+  "budget_laptop_claim": true,
+  "submitter": {
+    "name": "Francis Akponome",
+    "email": "akponomefrancis672@gmail.com",
+    "github_handle": "AkponomeFrancis"
+  },
+  "cross_disciplinary_pairing": {
+    "discipline": "education",
+    "load_bearing": true,
+    "description": "Pocket Professor AI integrates on-device language-model inference with academic education and research workflows, providing students and researchers with offline tutoring, document analysis, literature support, academic writing assistance, citation generation, research-gap discovery, and project development tools."
+  },
+  "test_prompts": [
+    {
+      "prompt_id": "tp_001",
+      "prompt": "A university student has limited internet access and needs to develop a research proposal. Explain how to structure the proposal, including the background, problem statement, objectives, research questions, methodology, and expected contribution. Keep the guidance practical and concise."
+    },
+    {
+      "prompt_id": "tp_002",
+      "prompt": "A researcher has uploaded a scholarly document and wants to understand its main argument. Explain a practical offline workflow for identifying the document's research problem, methodology, major findings, limitations, and possible research gaps without relying on cloud-based AI services."
+    }
+  ],
   "model": {
-    "name": "Llama 3.2 3B Instruct",
-    "quantization": "Q4_K_M",
-    "format": "GGUF",
-    "inference_engine": "llama.cpp",
-    "local_inference": true
+    "name": "Llama-3.2-3B-Instruct-Q4_K_M",
+    "runtime": "llama.cpp",
+    "quantization": "GGUF Q4_K_M",
+    "parameters_estimate": "3B",
+    "packaging": "binary_bundle"
   },
-  "hardware": {
-    "ram_gb": 8,
-    "gpu_required": false,
-    "cpu_inference": true
-  },
-  "privacy": {
-    "external_api_required": false,
-    "cloud_inference_required": false,
-    "offline_operation": true
+  "_runtime": {
+    "model_path": "model/Llama-3.2-3B-Instruct-Q4_K_M.gguf"
   }
 }
